@@ -1,0 +1,15 @@
+version: "3"
+services:
+  next:
+    build: .
+    #  volumes:
+    #    - ./pages/.:/usr/src/app/pages/.
+    #    - ./utils/.:/usr/src/app/utils/.
+    #    - ./components/.:/usr/src/app/components/.
+    #    - ./static/.:/usr/src/app/static/.
+    #    - ./hooks/.:/usr/src/app/hooks/.
+    #    - ./next.config.js:/usr/src/app/next.config.js
+    restart: always
+    ports:
+      - "3000:3000"
+    container_name: eastbound-app-nextjs

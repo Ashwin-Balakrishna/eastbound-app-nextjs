@@ -1,0 +1,34 @@
+.ulGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 250px;
+  grid-auto-flow: dense;
+  grid-gap: 1em;
+}
+
+.highlightBox {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.img {
+  display: block;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.lightboxImg {
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+  max-width: 950px;
+  max-height: 500px;
+}
+
+@media (max-width: 768px) {
+  .lightboxImg {
+    min-height: 300px;
+  }
+}

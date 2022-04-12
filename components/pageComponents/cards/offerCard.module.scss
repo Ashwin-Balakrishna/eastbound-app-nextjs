@@ -1,0 +1,30 @@
+@import "../../../public/scss/variables";
+
+.triangleWrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.triangle {
+  float: right;
+  position: relative;
+  border-style: solid;
+  border-width: 0 80px 80px 0;
+  border-color: #0000 $primary #0000 #0000;
+  text-align: center;
+  color: #fff;
+}
+
+.triangleText {
+  display: block;
+  position: absolute;
+  top: 12px;
+  right: -71px;
+  text-transform: uppercase;
+  line-height: 1.2em;
+}
+
+.fontWeight900 {
+  font-weight: 900;
+}

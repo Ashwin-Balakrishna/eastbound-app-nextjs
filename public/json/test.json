@@ -1,0 +1,112 @@
+{
+  "hotel": {
+    "code": 6,
+    "name": "Taj Deccan",
+    "description": "Testing",
+    "longitude": 17.385,
+    "latitude": 78.4867,
+    "category_code": "7ST",
+    "category_description": "7 STAR",
+    "categorygroup_code": "Star",
+    "categorygroup_description": "Star hotels",
+    "accommodationtype": "Rooms",
+    "boards_description": "NA",
+    "address": "Banjara hills, road no 12, near care hospitals",
+    "postalcode": "500012",
+    "email": "anand@byond.travel",
+    "license": "1A"
+  },
+  "destination": {
+    "destination_id": 25,
+    "code": 2,
+    "name": "Hyderabad",
+    "countrycode": "IN"
+  },
+  "zone": {
+    "zone_id": 22,
+    "zonecode": 2,
+    "name": "west",
+    "description": "west hyderabad"
+  },
+  "phones": [
+    { "phone_id": 49, "phone_number": "9191919191", "phone_type": "Booking" },
+    { "phone_id": 50, "phone_number": "1212121212", "phone_type": "Enquiry" }
+  ],
+  "state": 1,
+  "segments": { "segment_id": 0, "code": 1, "description": "dummy segment" },
+  "rooms": [
+    {
+      "roomcode_id": 0,
+      "roomcode": "DBS.3",
+      "description": "doube bed suit room",
+      "type_code": "D2",
+      "type_description": "dummy 2",
+      "price": {
+        "price_id": 0,
+        "regular_price": 2000.0,
+        "regular_gst_applied": 2.5,
+        "contracted_price": 1800,
+        "contracted_gst_applied": 2.5,
+        "alloted_price": 1500,
+        "alloted_gst_applied": 2.5,
+        "alloted_start_date": "2020-05-11 14:23:22.948380",
+        "alloted_end_date": "2020-05-11 14:23:22.948380",
+        "available_rooms": 3
+      },
+      "roomfacilities": [
+        { "roomfacility_id": 0, "facility_code": 1, "description": "geaser" },
+        { "roomfacility_id": 0, "facility_code": 2, "description": "ac" }
+      ]
+    },
+    {
+      "roomcode_id": 0,
+      "roomcode": "DBS.2",
+      "description": "doube bed suit two people",
+      "type_code": "D1",
+      "type_description": "dummy 1",
+      "price": {
+        "price_id": 0,
+        "regular_price": 2200.0,
+        "regular_gst_applied": 2.5,
+        "contracted_price": 1900,
+        "contracted_gst_applied": 2.5,
+        "alloted_price": 1600,
+        "alloted_gst_applied": 2.5,
+        "alloted_start_date": "2020-05-11 14:23:22.948380",
+        "alloted_end_date": "2020-05-15 14:23:22.948380",
+        "available_rooms": 3
+      },
+      "roomfacilities": [
+        { "roomfacility_id": 0, "facility_code": 1, "description": "table" },
+        { "roomfacility_id": 0, "facility_code": 2, "description": "ac" }
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "facility_id": 0,
+      "facilitycode": 1,
+      "description": "lift",
+      "amount": 0.0
+    }
+  ],
+  "terminals": [
+    {
+      "terminal_id": 0,
+      "terminalcode": "IT1",
+      "terminaltype": "Airport",
+      "distance": 12.5,
+      "name": "Kempegouda international airport"
+    }
+  ],
+  "issues": [{ "issue_id": 0, "issuecode": "I1", "issuetype": "light" }],
+  "interestpoints": [
+    {
+      "interestpoint_id": 0,
+      "facilitycode": 2,
+      "poiname": "bar",
+      "distance": 1.5
+    }
+  ],
+  "wildcards": [{ "wildcard_id": 0, "roomtype": "WDR" }]
+}

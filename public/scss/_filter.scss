@@ -1,0 +1,116 @@
+.filter {
+
+  &__wrapper {
+    width: 300px;
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    h6 {
+      font-size: 16px;
+      line-height: 24px;
+      color: #808080;
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+      a{
+        margin-right: 13px;
+        display: none;
+      }
+    }
+    span {
+      font-size: 16px;
+      line-height: 24px;
+      color: #f36b25;
+      cursor: pointer;
+      margin-right: 8px;
+    }
+  }
+  &__body {
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 24px 20px;
+  }
+  &__card {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 22px;
+    padding-bottom: 12px;
+    &:last-child {
+      border-bottom: 0px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+    h4 {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 24px;
+      color: #1a1a1a;
+      margin-bottom: 15px;
+    }
+     .apply_filter{
+      display: none;
+    }
+  }
+  &__checkboxwrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    span {
+      font-size: 12px;
+      line-height: 22px;
+      color: #808080;
+    }
+    .star {
+      margin: 0 1px;
+      color: #f2bd0d;
+      font-size: 13px;
+      &:first-child {
+        margin-left: 8px;
+      }
+    }
+    .rating {
+      width: 36px;
+      height: 20px;
+      padding: 2px 4px;
+      border-radius: 4px;
+      display: flex;
+      font-size: 12px;
+      line-height: 16px;
+      color: #ffffff;
+      justify-content: center;
+    }
+  }
+}
+.m_arrow{
+  display: none;
+}
+@media only screen and (max-width : 992px){
+  .filter{
+    &__wrapper{
+      width: 100%;
+    }
+    &__header{
+      h6{
+        a{
+          display: flex;
+        }
+      }
+    }
+    &__card{
+      .apply_filter{
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+  .m_arrow{
+    display: block;
+  }
+
+}

@@ -1,0 +1,10 @@
+{
+  "accreditations": [
+    { "label": "PATA", "value": 2 },
+    { "label": "TAAI", "value": 3 },
+    { "label": "OTAI", "value": 4 },
+    { "label": "UFTA", "value": 5 },
+    { "label": "TAFI", "value": 6 },
+    { "label": "ADTOI", "value": 7 }
+  ]
+}

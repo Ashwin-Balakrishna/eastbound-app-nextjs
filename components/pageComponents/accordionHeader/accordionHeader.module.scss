@@ -1,0 +1,7 @@
+.accordianArrow {
+  transition: transform 300ms ease;
+
+  &.active {
+    transform: rotate(180deg);
+  }
+}

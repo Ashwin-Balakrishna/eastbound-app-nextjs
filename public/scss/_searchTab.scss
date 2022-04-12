@@ -1,0 +1,33 @@
+.search-tab {
+  min-width: 120px;
+}
+
+.active-search-tab {
+  & * {
+    color: $primary;
+  }
+}
+
+.not-active-search-tab {
+  color: $text-muted;
+  background-color: #f0f0f0;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.search-tab-content {
+  background-color: white;
+  border: none;
+  border-radius: 0.25rem;
+  border-top-left-radius: 0;
+}
+
+.search-tab-icon {
+  font-size: 2rem !important;
+}
+
+.search-nav-tab-icon {
+  font-size: 1.5rem !important;
+}

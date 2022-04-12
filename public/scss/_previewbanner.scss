@@ -1,0 +1,117 @@
+.previewbanner {
+  // height: 100vh;
+
+  &__heading {
+    margin-bottom: 16px;
+    h5 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 32px;
+      color: #1a1a1a;
+      margin-bottom: 4px;
+    }
+    h6 {
+      font-size: 14px;
+      line-height: 18px;
+      color: #808080;
+      margin-bottom: 0;
+      margin-right: 6px;
+    }
+    .hotelbooking__star {
+      margin-left: 0;
+      align-items: center;
+    }
+    .rating {
+      padding: 2px 4px;
+      background: #2ac084;
+      border-radius: 4px;
+      display: inline-flex;
+      margin-left: 8px;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  &__preview {
+    margin-bottom: 40px;
+  }
+  &__bigimg {
+    width: 100%;
+    height: 420px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
+  &__thumbnils {
+    margin-top: 16px;
+    display: flex;
+    &__img {
+      width: 155px;
+      height: 112px;
+      border-radius: 12px;
+      border: 2px solid transparent;
+      padding: 3px;
+      margin-right: 10px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+      &.active {
+        border-color: #f36b25;
+      }
+    }
+  }
+  .image-gallery-slides{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    .image-gallery-slide{
+      width: 100%;
+      height: 100%;
+      div{
+        width: 100%;
+        height: 100%;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+  .image-gallery-thumbnail{
+    width: 155px;
+    height: 112px;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    overflow: hidden;
+    &.active{
+      border-color: #f36b25;
+    }
+    .image-gallery-thumbnail-inner{
+      width: 100%;
+      height: 100%;
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+@media only screen and (max-width :992px){
+  .previewbanner{
+    &__thumbnils{
+      &__img {
+        height: 54px;
+      }
+    }
+  }
+}

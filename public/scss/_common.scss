@@ -1,0 +1,37 @@
+.breadcrumb-wrapper {
+  .breadcrumb {
+    padding: 0px !important;
+    margin-bottom: 24px !important;
+  }
+  .breadcrumb-item {
+    font-size: 14px;
+    line-height: 16px;
+    color: #808080;
+    font-weight: 500;
+    a {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      color: #f36b25;
+    }
+    &::before {
+      content: url("../images/arrowright.svg");
+    }
+    &:first-of-type {
+      &::before {
+        content: none;
+      }
+    }
+  }
+}
+
+.bad {
+  background: #f34f4f !important;
+}
+.avg {
+  background: #ee903a !important;
+}
+.good {
+  background: #2ac084 !important;
+}

@@ -1,0 +1,63 @@
+@import "../../../public/scss/variables";
+
+
+@media screen and (min-width: 720px) {
+    .hotelimage{
+        
+        width:"302px";
+        height:"230px";
+    }
+   
+    .ratemobile {display: none; margin: 0px; padding: 0px;}
+  }
+  @media screen and (max-width: 640px) {
+   
+    .rateweb {display: none;background: #FAFAFA;}
+  }
+
+
+
+.review{
+   
+    font-size: 12px;
+
+}
+
+.review:hover{
+    text-decoration: underline;
+}
+
+.extrafacility{
+    background : #EDF8FD;
+    borderRadius : 4px;
+    padding : 2px;
+    color: black;
+}
+
+.price{
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+.pricetype{
+    font-size: 12px;
+    font-weight: 500;
+   
+}
+
+.pricetypemobile{
+    margin: 0%;
+    padding: 0%;
+    font-size: 11px;
+    font-weight: 400;
+
+}
+
+
+.pricemobile{
+    
+    font-size: 16px;
+    font-weight: bold;
+   
+}

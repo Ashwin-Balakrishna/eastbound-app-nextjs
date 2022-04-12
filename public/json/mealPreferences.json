@@ -1,0 +1,7 @@
+{
+  "meals": [
+    { "label": "Breakfast", "value": 1 },
+    { "label": "Lunch", "value": 2 },
+    { "label": "Dinner", "value": 3 }
+  ]
+}
