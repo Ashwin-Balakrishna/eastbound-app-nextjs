@@ -1,0 +1,10 @@
+.pViewer {
+  float: right;
+  margin-top: -32px;
+  cursor: pointer;
+  & > * {
+    user-select: none;
+  }
+}
+
+

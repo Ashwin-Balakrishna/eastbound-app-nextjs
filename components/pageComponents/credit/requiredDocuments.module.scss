@@ -1,0 +1,19 @@
+.lineThrough {
+  display: table;
+  white-space: nowrap;
+  &:before,
+  &:after {
+    border-top: 1px solid #f36b25 !important;
+    content: "";
+    display: table-cell;
+    position: relative;
+    top: 0.7em;
+    width: 48%;
+  }
+  &:before {
+    right: 1.5%;
+  }
+  &:after {
+    left: 1.5%;
+  }
+}

@@ -1,0 +1,129 @@
+.header {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    min-height: 60px;
+    padding: 0 80px;
+    box-shadow: 0px 4px 4px rgba(26, 26, 26, 0.08);
+    background: white;
+  }
+  &__navbar {
+    ul {
+      margin: 0;
+    }
+    
+    span {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      color: #1a1a1a;
+      padding: 18px 5px;
+      margin: 0 22px;
+      position: relative;
+      display: flex;
+      &::before {
+        content: "";
+        width: 0%;
+        height: 2px;
+        background: #f36b25;
+        position: absolute;
+        border-radius: 2px 2px 0 0;
+        bottom: 0px;
+        left: 0;
+        transition: width 0.2s ease-in-out;
+      }
+      &:hover,
+      &.active {
+        &::before {
+          width: 100%;
+        }
+      }
+    }
+  }
+  &__price {
+    display: flex;
+    align-items: center;
+    padding: 5px 16px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    img {
+      width: 16px;
+      margin-right: 12px;
+    }
+    span {
+      font-weight: 800;
+      font-size: 14px;
+      line-height: 24px;
+      color: #1a1a1a;
+    }
+  }
+}
+.wallet_text{
+  font-weight: 700;
+  font-size: 12px;
+  // line-height: 24px;
+  color: #1a1a1a;
+  
+}
+.wallet_text_money{
+  // font-weight: 700;
+  font-size: 12px;
+  // line-height: 24px;
+  color: #1a1a1a;
+  
+}
+.main {
+  &__wrapper {
+    margin-top: 60px;
+  }
+  &__container {
+    padding: 16px 80px;
+  }
+}
+.navbar-collapse{
+  justify-content: center;
+}
+.navbar-collapse ul{
+  display: flex;
+}
+.left__header{
+  display: block;
+  display: flex;
+}
+.header__navbar .logout{
+  display: none;
+}
+@media only screen and (max-width : 992px) {
+  .navbar-collapse{
+    background-color: white;
+  }
+  .header__navbar .logout{
+    display: block;
+  }
+  .navbar-collapse ul{
+    display: block;
+  }
+  .left__header{
+    display: none;
+  }
+  .header{
+    &__wrapper{
+      padding: 12px 16px;
+    }
+    &__navbar{
+      // display: none;
+    }
+    
+  }
+  .main {
+    &__wrapper {
+      margin-top: 0px;
+    }
+  }
+}

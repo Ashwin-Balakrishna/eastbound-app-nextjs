@@ -1,0 +1,26 @@
+@import "../../../public/scss/_variables";
+
+.inputClass {
+  width: 100% !important;
+  height: 56px !important;
+  border-color: $border-color !important;
+  // border-radius: 10px !important;
+}
+.react-tel-input .flag-dropdown:hover,
+.react-tel-input .flag-dropdown:focus {
+  border-color: $primary;
+}
+
+.searchClass {
+  padding: 10px !important;
+  & > input {
+    width: 100% !important;
+    margin: 0px !important;
+  }
+}
+
+.inputClass:focus,
+.inputClass.open {
+  border-color: $primary !important;
+  box-shadow: none !important;
+}

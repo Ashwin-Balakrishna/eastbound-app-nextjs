@@ -1,0 +1,16 @@
+
+	.menuItem {
+		background-color:#04222f;
+		color: #fff;
+		cursor: pointer;
+	}
+	.menuItem { 
+		 &:hover {
+			background-color:#fff;
+			color: #04222f;
+		}
+		&.active{
+			background-color:#fff;
+			color: #04222f;
+		}
+	}

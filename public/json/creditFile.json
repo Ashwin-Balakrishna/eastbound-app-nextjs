@@ -1,0 +1,106 @@
+{
+  "businessType": [
+    {
+      "business_id": "1",
+      "business": "Proprietorship",
+      "docs": [
+        {
+          "doc_id": 1,
+          "doc": "Certificate of Incorporation"
+        },
+        {
+          "doc_id": 2,
+          "doc": "Pan Card of Owner "
+        },
+        {
+          "doc_id": 3,
+          "doc": "Address Proof Residence of Owner"
+        },
+        {
+          "doc_id": 7,
+          "doc": "ITR of last 2 Financial Year of Owner"
+        },
+        {
+          "doc_id": 4,
+          "doc": "GST Registration Certificate "
+        },
+        {
+          "doc_id": 5,
+          "doc": "Bank Certificate for Signature and Account Verification"
+        },
+        {
+          "doc_id": 6,
+          "doc": "Blank Undated Cheque (Security) with Declaration"
+        }
+      ]
+    },
+    {
+      "business_id": "2",
+      "business": "Partnership / LLP",
+      "docs": [
+        {
+          "doc_id": 8,
+          "doc": "Partnership / LLP Agreement"
+        },
+        {
+          "doc_id": 9,
+          "doc": "Pan Card of Firm / LLP and 2 Partners"
+        },
+        {
+          "doc_id": 10,
+          "doc": "Address Proof Residence of Office and 2 Partners"
+        },
+        {
+          "doc_id": 11,
+          "doc": "GST Registration Certificate"
+        },
+        {
+          "doc_id": 12,
+          "doc": "Bank Certificate for Signature and Account Verification "
+        },
+        {
+          "doc_id": 13,
+          "doc": "Blank Undated Cheque (Security) with Declaration"
+        },
+        {
+          "doc_id": 14,
+          "doc": "Balance Sheet & ITR of last 2 Financial Year of Business"
+        }
+      ]
+    },
+    {
+      "business_id": "3",
+      "business": "Private Limited Company",
+      "docs": [
+        {
+          "doc_id": 15,
+          "doc": "Certificate of Incorporation,  MOA & AOA"
+        },
+        {
+          "doc_id": 16,
+          "doc": "Pan Card of Company and 2 Directors"
+        },
+        {
+          "doc_id": 17,
+          "doc": "Address Proof of Office and Residence of 2 Directors"
+        },
+        {
+          "doc_id": 18,
+          "doc": "GST Registration Certificate"
+        },
+        {
+          "doc_id": 19,
+          "doc": "Bank Certificate for Signature and Account Verification"
+        },
+        {
+          "doc_id": 20,
+          "doc": "Blank Undated Cheque (Security) with Declaration"
+        },
+        {
+          "doc_id": 21,
+          "doc": "Balance Sheet & ITR of last 2 Financial Year of Business"
+        }
+      ]
+    }
+  ]
+}

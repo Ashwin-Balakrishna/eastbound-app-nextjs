@@ -1,0 +1,33 @@
+.bgGradientPrimary {
+  background-color: #f97251;
+  background: linear-gradient(#f97251, #ff986c);
+  -moz-background: linear-gradient(
+    rgba(249, 114, 81, 1),
+    rgba(255, 152, 108, 1)
+  );
+  -o-background: linear-gradient(rgba(249, 114, 81, 1), rgba(255, 152, 108, 1));
+  -webkit-background: linear-gradient(
+    rgba(249, 114, 81, 1),
+    rgba(255, 152, 108, 1)
+  );
+}
+
+.imgDiv {
+  object-fit: cover;
+  height: 35vh;
+}
+
+@media (min-width: 1200px) {
+  .imgDiv {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .bgGradientPrimary {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .imgDiv {
+    object-fit: cover;
+    height: 45vh;
+  }
+}

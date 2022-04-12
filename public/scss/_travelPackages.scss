@@ -1,0 +1,13 @@
+.travel-package-customise-card {
+  transition: all 150ms ease-in-out;
+  &:hover {
+    border: 1px solid $primary;
+    background: $primary-lightest;
+    transform: translateY(2px);
+  }
+  &.selected,
+  &:active {
+    border: 1px solid $primary;
+    background: $primary-light;
+  }
+}

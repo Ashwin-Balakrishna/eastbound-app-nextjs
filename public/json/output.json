@@ -1,0 +1,390 @@
+{
+  "countries": [
+    {
+      "country": "India",
+      "states": [
+        {
+          "state_code": 2,
+          "state": "Andhra Pradesh"
+        },
+        {
+          "state_code": 3,
+          "state": "Arunachal Pradesh"
+        },
+        {
+          "state_code": 4,
+          "state": "Assam"
+        },
+        {
+          "state_code": 5,
+          "state": "Bihar"
+        },
+        {
+          "state_code": 6,
+          "state": "Chhattisgarh"
+        },
+        {
+          "state_code": 7,
+          "state": "Goa"
+        },
+        {
+          "state_code": 8,
+          "state": "Gujarat"
+        },
+        {
+          "state_code": 9,
+          "state": "Haryana"
+        },
+        {
+          "state_code": 10,
+          "state": "Himachal Pradesh"
+        },
+        {
+          "state_code": 11,
+          "state": "Jammu and Kashmir"
+        },
+        {
+          "state_code": 12,
+          "state": "Jharkhand"
+        },
+        {
+          "state_code": 13,
+          "state": "Karnataka"
+        },
+        {
+          "state_code": 14,
+          "state": "Kerala"
+        },
+        {
+          "state_code": 15,
+          "state": "Madhya Pradesh"
+        },
+        {
+          "state_code": 16,
+          "state": "Maharashtra"
+        },
+        {
+          "state_code": 17,
+          "state": "Manipur"
+        },
+        {
+          "state_code": 18,
+          "state": "Meghalaya"
+        },
+        {
+          "state_code": 19,
+          "state": "Mizoram"
+        },
+        {
+          "state_code": 20,
+          "state": "Nagaland"
+        },
+        {
+          "state_code": 21,
+          "state": "Odisha"
+        },
+        {
+          "state_code": 22,
+          "state": "Punjab"
+        },
+        {
+          "state_code": 23,
+          "state": "Rajasthan"
+        },
+        {
+          "state_code": 24,
+          "state": "Sikkim"
+        },
+        {
+          "state_code": 25,
+          "state": "Tamil Nadu"
+        },
+        {
+          "state_code": 26,
+          "state": "Telangana"
+        },
+        {
+          "state_code": 27,
+          "state": "Tripura"
+        },
+        {
+          "state_code": 28,
+          "state": "Uttarakhand"
+        },
+        {
+          "state_code": 29,
+          "state": "Uttar Pradesh"
+        },
+        {
+          "state_code": 30,
+          "state": "West Bengal"
+        },
+        {
+          "state_code": 31,
+          "state": "Andaman and Nicobar Islands"
+        },
+        {
+          "state_code": 32,
+          "state": "Chandigarh"
+        },
+        {
+          "state_code": 33,
+          "state": "Dadra and Nagar Haveli"
+        },
+        {
+          "state_code": 34,
+          "state": "Daman and Diu"
+        },
+        {
+          "state_code": 35,
+          "state": "Delhi"
+        },
+        {
+          "state_code": 36,
+          "state": "Lakshadweep"
+        },
+        {
+          "state_code": 37,
+          "state": "Puducherry"
+        },
+        {
+          "state_code": 1,
+          "state": "Test"
+        }
+      ]
+    },
+    {
+      "country": "USA",
+      "states": [
+        {
+          "state_code": 38,
+          "state": "Alabama"
+        },
+        {
+          "state_code": 39,
+          "state": "Alaska"
+        },
+        {
+          "state_code": 40,
+          "state": "Arizona"
+        },
+        {
+          "state_code": 41,
+          "state": "Arkansas"
+        },
+        {
+          "state_code": 42,
+          "state": "California"
+        },
+        {
+          "state_code": 43,
+          "state": "Colorado"
+        },
+        {
+          "state_code": 44,
+          "state": "Connecticut"
+        },
+        {
+          "state_code": 45,
+          "state": "Delaware"
+        },
+        {
+          "state_code": 46,
+          "state": "Florida"
+        },
+        {
+          "state_code": 47,
+          "state": "Georgia"
+        },
+        {
+          "state_code": 48,
+          "state": "Hawaii"
+        },
+        {
+          "state_code": 49,
+          "state": "Idaho"
+        },
+        {
+          "state_code": 50,
+          "state": "Illinois"
+        },
+        {
+          "state_code": 51,
+          "state": "Indiana"
+        },
+        {
+          "state_code": 52,
+          "state": "Iowa"
+        },
+        {
+          "state_code": 53,
+          "state": "Kansas"
+        },
+        {
+          "state_code": 54,
+          "state": "Kentucky"
+        },
+        {
+          "state_code": 55,
+          "state": "Louisiana"
+        },
+        {
+          "state_code": 56,
+          "state": "Maine"
+        },
+        {
+          "state_code": 57,
+          "state": "Maryland"
+        },
+        {
+          "state_code": 58,
+          "state": "Massachusetts"
+        },
+        {
+          "state_code": 59,
+          "state": "Michigan"
+        },
+        {
+          "state_code": 60,
+          "state": "Minnesota"
+        },
+        {
+          "state_code": 61,
+          "state": "Mississippi"
+        },
+        {
+          "state_code": 62,
+          "state": "Missouri"
+        },
+        {
+          "state_code": 63,
+          "state": "Montana"
+        },
+        {
+          "state_code": 64,
+          "state": "Nebraska"
+        },
+        {
+          "state_code": 65,
+          "state": "Nevada"
+        },
+        {
+          "state_code": 66,
+          "state": "New Hampshire"
+        },
+        {
+          "state_code": 67,
+          "state": "New Jersey"
+        },
+        {
+          "state_code": 68,
+          "state": "New Mexico"
+        },
+        {
+          "state_code": 69,
+          "state": "New York"
+        },
+        {
+          "state_code": 70,
+          "state": "North Carolina"
+        },
+        {
+          "state_code": 71,
+          "state": "North Dakota"
+        },
+        {
+          "state_code": 72,
+          "state": "Ohio"
+        },
+        {
+          "state_code": 73,
+          "state": "Oklahoma"
+        },
+        {
+          "state_code": 74,
+          "state": "Oregon"
+        },
+        {
+          "state_code": 75,
+          "state": "Pennsylvania"
+        },
+        {
+          "state_code": 76,
+          "state": "Rhode Island"
+        },
+        {
+          "state_code": 77,
+          "state": "South Carolina"
+        },
+        {
+          "state_code": 78,
+          "state": "South Dakota"
+        },
+        {
+          "state_code": 79,
+          "state": "Tennessee"
+        },
+        {
+          "state_code": 80,
+          "state": "Texas"
+        },
+        {
+          "state_code": 81,
+          "state": "Utah"
+        },
+        {
+          "state_code": 82,
+          "state": "Vermont"
+        },
+        {
+          "state_code": 83,
+          "state": "Virginia"
+        },
+        {
+          "state_code": 84,
+          "state": "Washington"
+        },
+        {
+          "state_code": 85,
+          "state": "West Virginia"
+        },
+        {
+          "state_code": 86,
+          "state": "Wisconsin"
+        },
+        {
+          "state_code": 87,
+          "state": "Wyoming"
+        },
+        {
+          "state_code": 88,
+          "state": "District of Columbia"
+        },
+        {
+          "state_code": 89,
+          "state": "American Samoa"
+        },
+        {
+          "state_code": 90,
+          "state": "Guam"
+        },
+        {
+          "state_code": 91,
+          "state": "Northern Mariana Islands"
+        },
+        {
+          "state_code": 92,
+          "state": "Puerto Rico"
+        },
+        {
+          "state_code": 93,
+          "state": "United States Minor Outlying Islands"
+        },
+        {
+          "state_code": 94,
+          "state": "Virgin Islands"
+        }
+      ]
+    }
+  ]
+}

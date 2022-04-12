@@ -1,0 +1,14 @@
+
+
+@media screen and (min-width: 720px) {
+    .carimg{
+    
+        height: 400px;
+    }
+}
+  @media screen and (max-width: 719px) {
+    .carimg{
+        height: 200px;
+        object-fit: cover;
+    }
+  }

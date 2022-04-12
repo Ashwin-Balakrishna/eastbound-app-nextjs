@@ -1,0 +1,56 @@
+.outerBox{
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+
+}
+
+.boxHeader{
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+
+.boxContent{
+    // padding: 15px;
+}
+
+.formContent{
+    padding: 15px 0px;
+}
+
+.formBtn{
+    background-color: #F36B25;
+    color: white;
+    border: 1px solid #F36B25;
+    font-size: 14px;
+    width: 100%;
+}
+
+.hideArrow input::-webkit-outer-spin-button,
+.hideArrow input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+
+
+.closeAnimation {
+    overflow-y: hidden;
+        max-height: 0;
+        margin-bottom: 0 !important;
+        // transition: max-height 0.3s ease;
+        opacity: 0;
+}
+.openAnimation {
+    background-color: white;
+    transition: max-height 0.5s ease;
+    overflow-x: hidden !important;
+    max-height: 100%;
+    opacity: 1;
+}
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+

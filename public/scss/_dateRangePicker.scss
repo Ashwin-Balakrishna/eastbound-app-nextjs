@@ -1,0 +1,127 @@
+// NOTE: the order of these styles DO matter
+
+// Will edit everything selected including everything between a range of dates
+.CalendarDay__selected_span {
+  background: rgba($primary, 0.45);
+  color: $gray-700;
+  border: 1px solid rgba($primary, 0.35);
+  &:hover {
+    background: rgba($primary, 0.45);
+    color: $gray-700;
+    border: 1px solid rgba($primary, 0.35);
+  }
+}
+
+// // Will edit when hovered over. _span style also has this property
+.CalendarDay__selected {
+  background: rgba($primary, 0.75);
+  border-color: rgba($primary, 0.35);
+  color: white;
+  &:hover {
+    background: rgba($primary, 0.5);
+    border-color: rgba($primary, 0.35);
+    color: white;
+  }
+}
+
+// // Will edit when the second date (end date) in a range of dates
+// // is not yet selected. Edits the dates between your mouse and said date
+.CalendarDay__hovered_span {
+  &:hover {
+    background: rgba($primary, 0.45);
+    color: $gray-700;
+    border: 1px solid rgba($primary, 0.35);
+  }
+  background: rgba($primary, 0.45);
+  color: $gray-700;
+  border: 1px solid rgba($primary, 0.35);
+}
+
+.DayPickerKeyboardShortcuts_show__bottomRight {
+  &::before {
+    border-right-color: rgba($primary, 0.75);
+  }
+  &:hover {
+    &::before {
+      border-right-color: rgba($primary, 0.85);
+    }
+  }
+}
+
+.DateInput_input__focused {
+  border-color: $primary;
+}
+
+.DateRangePickerInput {
+  padding: 0px;
+  border-color: $border-color;
+  border-radius: $border-radius-lg;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+
+  &:focus {
+    border-color: $primary;
+  }
+}
+
+.DateInput {
+  height: 49px;
+}
+
+.DateInput_input {
+  display: block;
+  font-weight: 400;
+  color: grey;
+  background-clip: padding-box;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  height: 100%;
+  padding: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.DateRangePickerInput_calendarIcon {
+  display: flex;
+  align-items: center;
+}
+
+.DateRangePickerInput_clearDates {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: unset;
+  transform: unset;
+}
+
+.DateRangePickerInput_clearDates_svg {
+  fill: $gray-900;
+  height: 10px;
+  width: 10px;
+}
+
+.DateRangePickerInput_clearDates_default:focus,
+.DateRangePickerInput_clearDates_default:hover {
+  background-color: transparent;
+  border-radius: none;
+}
+
+.DateRangePickerInput_arrow_svg {
+  width: 19px;
+  height: 19px;
+}
+
+@media (max-width: 575.98px) {
+  .DateRangePicker_picker {
+    width: 100%;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  select:focus,
+  textarea:focus,
+  input:focus {
+    font-size: 16px;
+  }
+}

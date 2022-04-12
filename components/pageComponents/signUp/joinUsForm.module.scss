@@ -1,0 +1,60 @@
+.editText{
+    font-size: 10px ;
+    color: blue;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.attemptsText{
+    font-size: 12px;
+    color: red
+}
+
+.verifiedText{
+    font-size: 12px;
+    color: lawngreen;
+}
+
+.resendText{
+    display: flex;
+    margin-top: 15px;
+    font-size: 80%;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.resendTextDisable{
+    display: flex;
+    margin-top: 15px;
+    font-size: 80%;
+    margin-left: 10px;
+    cursor: pointer;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.disable{
+    pointer-events: none;
+    
+}
+
+.disable div:first-child{
+    opacity: 0.4;
+
+}
+
+.marginBtn button{
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+  select.selectPlaceholder:required:invalid {
+    color: gray;
+  }
+  .selectPlaceholder option[value=""][disabled] {
+    display: none;
+  }
+  .selectPlaceholder option {
+    color: black;
+  }

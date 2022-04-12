@@ -1,0 +1,262 @@
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "global";
+
+@import "advantages";
+@import "checkbox";
+@import "dateRangePicker";
+@import "loading";
+@import "navbar";
+@import "searchDropdown";
+@import "searchTab";
+@import "tabs";
+@import "travelPackages";
+@import "header";
+@import "footer";
+@import "common";
+@import "search";
+@import "button";
+@import "bookinghotel";
+@import "filter";
+@import "hotelinfo";
+@import "similarhotel";
+@import "previewbanner";
+@import "profile";
+@import "forms";
+@import "booking";
+
+.read-more-button {
+  cursor: pointer;
+  color: $primary;
+}
+#searchdatepicker .rs-picker-toggle.rs-btn.rs-btn-subtle{
+  padding-right:0 !important;
+
+}
+.gm-ui-hover-effect {
+  visibility: hidden;
+}
+.outline:focus{
+  background-color: #fff !important;
+  color:red !important;
+  box-shadow: none;
+}
+.outline:hover{
+  background-color: #fff !important;
+  color:red !important;
+  box-shadow: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0.3;
+}
+.custom-link.active {
+  color: #0C3E55 !important;
+  background-color: #F5F5F5 !important;
+  // border-color: #dee2e6 #dee2e6 #fff;
+  border: 1px solid #EBEBEB !important;
+  border-radius: 10px 10px 0px 0px !important;
+  opacity: 1 !important;
+}
+.custom-link {
+  color:#0C3E55 !important;
+  background-color: #FFFFFF !important;
+  border: 1px solid #EBEBEB !important;
+  border-radius: 10px 10px 0px 0px !important;
+  opacity: 1 !important;
+}
+.transaction-input{
+  width: 350px;
+  // height: 53px;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.upload-btn {
+  border: 1px dashed #000000;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 350px;
+  height: 78px;
+}
+.transaction{
+  max-width: 250px;
+}
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+/* When the radio button*/
+.checkbox-cus  .label {
+    display: flex;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.375em;
+  }
+ .checkbox-cus input {
+    position: absolute;
+    margin-left: -19px !important;
+    visibility: hidden;
+    &:checked + label {
+      &:before {
+        box-shadow: inset 0 0 0 0.4em #f36b25 !important;
+      }
+      &:hover{
+        box-shadow: none !important;
+      }
+    }
+  }
+ .checkbox-cus label {
+    display: flex;
+    align-items: center;
+    padding: 0.375em 0.75em 0.375em 0.325em;
+    border-radius: 99em;
+    transition: 0.25s ease;
+    &:before {
+      display: flex;
+      flex-shrink: 0;
+      content: "";
+      background-color: #fff;
+      width: 1.5em;
+      height: 1.5em;
+      opacity: 100%;
+      border-radius: 50%;
+      margin-right: 0.375em;
+      transition: 0.25s ease;
+      box-shadow: inset 0 0 0 0.4em #EBEBEB !important;
+    }
+    &:hover{
+      box-shadow: none !important;
+    }
+  }
+  .checkbox-custom{
+    input:not(:checked) + label:before,
+    input:checked + label:before {
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        border: 1px solid #f36b25;
+        box-sizing: border-box;
+        border-radius: 1px;
+        margin-right: 5px;
+    }
+
+    input:not(:checked) + label:after,
+    input:checked + label:after {
+      content: "✓";
+      font: {
+        family: 'poppins';
+        size: 12px;
+      }
+      display: flexbox;
+      height: 100%;
+      font-size: larger;
+      align-items:center;
+      color: #fff;
+      text-align: center;
+      justify-content: center;
+      transform-origin: center center;
+      margin-bottom: 10px ;
+    }
+
+    input:not(:checked) + label:after {
+      transform: scale(0);
+    }
+
+    input:checked + label:before {
+      background-color: #f36b25;
+      border-color: #f36b25;
+    }
+
+    input:checked + label:after {
+      transform: scale(1);
+      text-align: center;
+    }
+  }
+  .font-styles, .font-styles p h5 {
+    // text-align: left;
+    font: normal normal normal 14px/18px Poppins !important;
+    letter-spacing: 0px;
+    color: #264653;
+    opacity: 1;
+  }
+  .font-styles b{
+    font-family: Poppins !important;
+  }
+  .font-styles h6{
+    font-family: Poppins !important;
+    font-size: 16px !important;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #264653;
+  } 
+  .card-grey{
+    opacity: 50%;
+    z-index :0; 
+    background-color: rgb(248, 247, 247);
+  }
+
+
+  .custom-tabpane {
+    display: none !important;
+  }
+  @media only screen and (max-width: 700px) {
+    .custom-nav{
+      margin-top: 100px !important;
+    }
+    .custom-top{
+      margin-top: 25px !important;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+  .btn-custom{
+    min-width: 180px !important;
+    max-width: 185px !important;
+    display: flexbox;
+  }
+  .custom-display{
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 800px) {
+.custom-display{
+  display: block !important;
+}
+}
+@media only screen and (max-width: 500px) {
+.transaction-input
+{
+  width: 300px;
+
+}
+.upload-btn{
+  width: 400px !important;
+}
+.custom-top{
+  margin-top: 45px !important;
+}
+}
+@media only screen and (max-width: 320px) {
+  .transaction-input
+  {
+    width: 280px;
+  }
+  .upload-btn{
+    width: 270px !important;
+  }
+  }

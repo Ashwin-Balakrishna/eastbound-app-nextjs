@@ -1,0 +1,18 @@
+.dropdown-custom .dropdown-input {
+  border: 1px solid #ced4da !important;
+  color: #808080 !important;
+  font-family: sans-serif;
+  height: 50px;
+}
+
+.dropdown-custom .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+
+.dropdown-custom .btn-primary:focus {
+  box-shadow: none !important;
+}
+
+.search__control {
+  height: 50px;
+}

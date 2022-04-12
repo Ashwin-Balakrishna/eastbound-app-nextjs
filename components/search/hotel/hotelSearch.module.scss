@@ -1,0 +1,19 @@
+@media (max-width: 575.98px) {
+  .widthXs100 {
+    width: 100%;
+  }
+}
+
+.searchResult {
+  z-index: 100 !important;
+}
+
+@media (max-width: 575.98px) {
+  .searchResult {
+    top: 55px;
+  }
+}
+
+.form {
+  position: relative;
+}

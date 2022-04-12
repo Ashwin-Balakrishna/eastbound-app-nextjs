@@ -1,0 +1,17 @@
+.advantage-box {
+  position: relative;
+  &:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    background-color: #f8f9fa;
+  }
+}
+
+.advantage-box-icon {
+  color: $primary;
+  font-size: 1.5rem;
+}
